@@ -1,0 +1,73 @@
+.body{
+    
+}
+* {
+    margin: 0;
+    padding: 0;
+} 
+.container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    
+  
+}
+.body{
+    border: 1px solid red;   
+    width: 35%;
+    height: 30rem;
+    padding: 2rem;
+    box-shadow: 0px 0px 6px grey;
+    background-color: honeydew;
+    text-align: center;
+
+}
+.body2{
+    border: 1px solid red;   
+    width: 35%;
+    height: 30rem;
+    padding: 2rem;
+    box-shadow: 0px 0px 6px grey;
+    background-color: honeydew;
+    text-align: center;
+
+}
+#roll{
+    position: absolute;
+    bottom: 20%;
+    font-size: larger;
+    border: 1px solid hotpink;
+    border-radius: 3px;
+    background-color: ivory;
+    cursor: grabbing;
+}
+#Random{
+    font-size: 3rem;
+    font-weight: 100;
+    color: red;
+}
+#Random1{
+    font-size: 3rem;
+    font-weight: 100;
+    color: red;
+}
+.Score{
+    color: red;
+    font-size: 2rem;
+}
+.Score1{
+    color: red;
+    font-size: 2rem;
+}
+.change{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#refresh{
+    position: absolute;
+    top: 20%;
+    font-size: larger;
+    border: none;
+    border-radius: 3px;
+    background-color: ivory;
+    cursor: grabbing;  
+}
